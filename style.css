@@ -7,7 +7,7 @@ button {
     width: 100%;
     border: 0;
     outline: none;
-    background-color: darkcyan;
+    background-color: darkgray;
     font-size: 18px;
     padding: 8px;
     cursor: pointer;
@@ -15,18 +15,18 @@ button {
 }
 
 .dropdown button {
-    background-color: cadetblue;
+    background-color: darkcyan;
 }
 
 .main-title {
-    font-size: 48px;
+    font-size: 32px;
     font-weight: bold;
     margin: 3px 0;
 }
 
 .sub-title {
-    font-size: 25px;
-    font-weight: lighter;
+    font-size: 22px;
+    font-style: italic;
     margin: auto;
 }
 
@@ -51,11 +51,11 @@ button {
     display: block;
 }
 
-/* .dropdown-btn {
+.dropdown-btn {
     width: 100%;
     border: 0;
     outline: none;
-    background-color: chocolate;
+    background-color: darkgray;
     font-size: 18px;
     padding: 8px;
     cursor: pointer;
@@ -64,8 +64,8 @@ button {
 }
 
 .dropdown-btn:hover {
-    background-color: blanchedalmond;
-} */
+    background-color: aliceblue;
+}
 
 .dropdown-body li {
     list-style: none;
@@ -84,10 +84,40 @@ button {
     padding: 8px 36px;
 }
 
-.simple-header .main-title {
-    font-size: 32px;
+.title-bio {
+    font-size: 20px;
 }
 
-.simple-header .sub-title {
-    margin: 10px;
+#about {
+    display: flex;
+    flex-direction: column;
+    padding: 36px;
+    align-items: center;
+    text-align: center;
+}
+
+#about * {
+    box-sizing: border-box;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.about-img {
+    width: 10%;
+    height: auto;
+}
+
+.text-cont {
+    max-width: 60%;
+    text-align: left;
+    padding: 0 16px;
+}
+
+.text {
+    line-height: 1.5;
+    font-size: 18px;
 }
