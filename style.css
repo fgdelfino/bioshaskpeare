@@ -1,13 +1,15 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: auto;
+    background-color: #d5b59c;
 }
 
 button {
     width: 100%;
     border: 0;
     outline: none;
-    background-color: darkgray;
+    /* background-color: darkgray; */
+    background-color: #faebd7;
     font-size: 18px;
     padding: 8px;
     cursor: pointer;
@@ -79,7 +81,8 @@ button {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: darkgrey;
+    /* background-color: darkgrey; */
+    background-color: #c0864b;
     width: 100%;
     padding: 8px 36px;
 }
