@@ -75,8 +75,7 @@ button {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    /* background-color: darkgrey; */
-    background-color: #c0864b;
+    background-color: #6D6A75;
     width: 100%;
     padding: 8px 36px;
 }
@@ -98,6 +97,13 @@ button {
 .grid-title {
     grid-area: grid-title;
     font-size: 30px;
+}
+
+@media only screen and (max-height: 667px){
+    iframe {
+        height: 200px;
+        width: 130px;
+    }
 }
 
 .grid-video {

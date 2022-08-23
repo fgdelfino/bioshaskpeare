@@ -8,7 +8,6 @@ button {
     width: 100%;
     border: 0;
     outline: none;
-    /* background-color: darkgray; */
     background-color: #faebd7;
     font-size: 18px;
     padding: 8px;
@@ -24,6 +23,12 @@ button {
     font-size: 32px;
     font-weight: bold;
     margin: 3px 0;
+}
+
+@media only screen and (max-height: 667px){
+    .sub-title {
+        display: none;
+    }
 }
 
 .sub-title {
@@ -81,8 +86,7 @@ button {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    /* background-color: darkgrey; */
-    background-color: #c0864b;
+    background-color: #6D6A75;
     width: 100%;
     padding: 8px 36px;
 }
