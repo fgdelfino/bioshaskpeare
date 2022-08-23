@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    background-color: #d5b59c;
+}
+
+button {
+    width: 100%;
+    border: 0;
+    outline: none;
+    /* background-color: darkgray; */
+    background-color: #faebd7;
+    font-size: 18px;
+    padding: 8px;
+    cursor: pointer;
+    margin: 10px 0 0 0;
+}
+
+.dropdown button {
+    background-color: darkcyan;
+}
+
+.main-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 3px 0;
+}
+
+.dropdown {
+    width: auto;
+    position: relative;
+    width: 100px;
+}
+
+.dropdown-body {
+    display: none;
+    position: absolute;
+    top: 48px;
+    margin: 0;
+    border: black 1px solid;
+    background-color: white;
+    padding: 5px;
+    width: 100%;
+}
+
+.dropdown:hover .dropdown-body {
+    display: block;
+}
+
+.dropdown-btn {
+    width: 100%;
+    border: 0;
+    outline: none;
+    background-color: darkgray;
+    font-size: 18px;
+    padding: 8px;
+    cursor: pointer;
+    margin: 10px 0 0 0;
+    transition: all ease 500ms;
+}
+
+.dropdown-btn:hover {
+    background-color: aliceblue;
+}
+
+.dropdown-body li {
+    list-style: none;
+}
+
+.simple-header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: darkgrey; */
+    background-color: #c0864b;
+    width: 100%;
+    padding: 8px 36px;
+}
+
+.text {
+    line-height: 1.0;
+    font-size: 15px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    grid-template-areas: "grid-title grid-title" "grid-video grid-text" "grid-list grid-text";
+}
+
+.grid-title {
+    grid-area: grid-title;
+    font-size: 30px;
+}
+
+.grid-video {
+    grid-area: grid-video;
+}
+
+.grid-text {
+    grid-area: grid-text;
+    max-width: 100%;
+    text-align: left;
+    padding: 0 16px;
+}
+
+.grid-list {
+    grid-area: grid-list;
+    font-size: 15px;
+    text-align: left;
+}
+
+.list-title {
+    text-align: center;
+}
